@@ -1,5 +1,5 @@
 # Customer-Churn-modelling
-This project takes all inclusive approach to determine customers who are likely to churn based on certain criteria
+>-This project takes all inclusive approach to determine customers who are likely to churn based on certain criteria
 The following approach were used in solving the problem
 1.Define churn – Churn is defined as any customer who didn’t make any purchase within the last 8 months of Business transaction i.e. any customer whose maximum/last transaction date is less than 31/10/2007. 
 2.Carry exploratory analysis to understand the profile of churners using their demographic, transactional and attitudinal data. You can employ a decision tree to generate a rule set that can help you describe these customers or plot a distribution of the demographic variables vs the Churn variable (target)
