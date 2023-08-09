@@ -30,4 +30,4 @@ Attiudinal Data       |  Demographic Data
 
 Transactional Data       |  Behavioral Data
 :---------------:     |:----------------:
- ![](attitudinal.png) | ![](beavioral.png) 
+ ![](Transactional.png) | ![](behavioral.png) 
