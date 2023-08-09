@@ -31,3 +31,45 @@ Attiudinal Data       |  Demographic Data
 Transactional Data       |  Behavioral Data
 :---------------:     |:----------------:
  ![](Transactional.png) | ![](behavioral.png) 
+
+---
+
+## Skill Demostrated
+For a detailed account of how these skills were effectively employed to arrive at the solution to the problem, please refer to the project documentation or report ![here]()
+
+- Data Preprocessing: Cleaning, transforming, and preparing raw data for analysis, including handling missing values, outlier detection, and feature scaling.
+- Feature Engineering: Creating relevant and informative features that capture customer behavior, demographics, and interactions.
+Exploratory Data Analysis (EDA): Analyzing data distributions, visualizing patterns, and identifying insights that guide feature selection and model creation.
+- Machine Learning Algorithms: Implementing various classification algorithms such as Random Forest, Gradient Boosting, SVM, KNN, Logistic Regression, Naive Bayes, and Neural Networks to predict churn.
+- Model Selection and Evaluation: Comparing multiple models, tuning hyperparameters, and evaluating their performance using metrics like accuracy, precision, recall, F1-score
+- Feature Importance Analysis: Determining the significance of features in predicting churn using techniques like recursive feature elimination, feature importance scores from tree-based models, and VIF analysis.
+- Customer Profiling and Segmentation: Utilizing clustering techniques ( K-means) to group customers based on behavior, enabling targeted strategies for retention.
+- Data Integrity and Validation: Ensuring data quality, consistency, and accuracy through single customer view creation, duplication handling, and validation against real-world scenarios.
+- Model Deployment: Scoring models on unseen data, validating real-world performance, and preparing for integration into production systems.
+- Commercial Impact Assessment: Evaluating the business implications of churn prediction, including revenue preservation, cost savings, enhanced customer loyalty, and data-driven decision-making.
+- Communication Skills: Presenting findings, insights, and recommendations to stakeholders in a clear and concise manner, bridging the gap between technical and non-technical audiences.
+- Problem Solving and Critical Thinking: Identifying challenges, choosing appropriate techniques, and iterating on solutions to improve model performance and address real-world business concerns.
+- Project Management: Planning, organizing, and executing a comprehensive churn prediction project, including data collection, analysis, modeling, and deployment phases.
+
+---
+
+## Methodology
+
+The approach employed to address the problem encompassed several key steps, demonstrating a comprehensive methodology for churn prediction:
+- Churn Definition: Churn was meticulously defined as the absence of any customer purchase within the last 8 months of business transactions, specifically, when the maximum or last transaction date is before October 31, 2007.
+
+- Exploratory Analysis: An exploratory analysis was undertaken to gain insights into the characteristics of churners. This analysis involved delving into demographic, transactional, and attitudinal data. A decision tree was utilized to establish a rule set for describing these customers, and distribution plots were created to visualize demographic variables against the churn target.
+
+- Feature Engineering with RFM: The feature engineering phase incorporated the Recency-Frequency-Monetary (RFM) analysis. This analysis facilitated the creation of attributes such as recency, frequency, and lifetime value for each customer. Subsequently, RFM variables or RFM Scores were employed to construct a clustering model using the K-means algorithm, an unsupervised technique. The optimal number of clusters was determined using the elbow method. The resulting cluster assignments were integrated into the modeling and scoring variables, with the churn variable as the target.
+
+- Data Refinement and Integrity: To ensure data integrity, a single customer view was established, meaning that the final dataset featured a single customer's data per row, eliminating duplicates.
+
+- Modeling Phases: The modeling phases encompassed a comprehensive series of steps, beginning with statistical testing to assess multi-collinearity and overfitting. Distributions were investigated, and any outliers, extreme values, or spurious entries were identified. Missing values were imputed where applicable. Feature selection was conducted to streamline the variables. Data was partitioned into training, testing, or validation sets, or cross-validation techniques were employed. Multiple models were developed, compared, and evaluated, culminating in the selection of the most promising model.
+
+- Model Deployment and Validation: The selected champion model was deployed or scored on an unseen dataset, which had not been part of the model development phase. This procedure ensured that the model's performance was assessed in a real-world context, devoid of any potential bias introduced during training.
+
+- Revalidation and Finalization: Prior to launching the primary marketing campaign, a final revalidation of the model was conducted. This step guaranteed that the model's effectiveness and reliability were verified, setting the stage for a successful campaign rollout.
+
+---
+
+ 
