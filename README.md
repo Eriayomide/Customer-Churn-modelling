@@ -99,5 +99,28 @@ Education             |  Age distribution
  ![](exploratory_analysis3.png) | ![](exploratory_analysis2.png)  
 
 
+ Commute              |  Income
+:---------------:     |:----------------:
+ ![](commute.png) | ![](income.png)  
+
+
+Occupation            |  Ownership
+:---------------:     |:----------------:
+ ![](occupation.png) | ![](ownership.png)  
+
+---
+
+## Feature Engineering. 
+---
+We employed a voting-based approach to select impactful features for prediction. Techniques like information value, weight of evidence, random forest, extra trees, chi-square, and L1 were used to reduce 139 features to 10. Further pruning, guided by variance inflation factor (VIF), led to the final 7 most important features.
+
+---
+
+Occupation            |  Ownership
+:---------------:     |:----------------:
+ ![](Feature_Voting.png) | ![](Feature_Voting2.png)  
+
+
+
 
  
