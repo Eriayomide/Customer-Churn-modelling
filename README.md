@@ -146,6 +146,7 @@ We conducted a parallel model run on our final features, evaluating 10 classific
 
 ## Model Evaluation: Assessing Performance and Validating Results
 
+---
 
 In the context of our project, model evaluation was a critical phase to gauge the effectiveness and reliability of our churn prediction models. This phase involved a series of steps to measure the models' performance, ensuring that they can make accurate predictions on new, unseen data. Here's how we approached model evaluation:
 
@@ -162,6 +163,7 @@ In the context of our project, model evaluation was a critical phase to gauge th
 - 	Validation on Unseen Data: After selecting the best model based on cross-validation results, we validated its performance on the designated testing subset that the model had not seen during training. This step aimed to provide a realistic estimation of its performance in a real-world scenario.
 
 - Business Impact Assessment: In addition to traditional metrics, we assessed the commercial impact of the model's predictions. This involved estimating potential revenue preservation, cost savings, and other business benefits based on model performance.
+
 
 ---
 
