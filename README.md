@@ -124,9 +124,10 @@ We employed a voting-based approach to select impactful features for prediction.
 :---------------:     |:----------------:
  ![](Feature_Voting.png) | ![](Feature_Voting2.png) 
 
+---
 
 ## Model Selection
-----
+
 We conducted a parallel model run on our final features, evaluating 10 classification models including Random Forest, Extra Tree, Gradient Boosting, SVM, KNN, Logistic Regression, LDA, Naive Bayes, and Neural Network. Gradient Boosting emerged as the winning model due to its highest f-beta score on the test data.
 
 ---
