@@ -1,10 +1,33 @@
-# Customer-Churn-modelling
->- This project takes all inclusive approach to determine customers who are likely to churn based on certain criteria
-- The following approach were used in solving the problem
-- Define churn – Churn is defined as any customer who didn’t make any purchase within the last 8 months of Business transaction i.e. any customer whose maximum/last transaction date is less than 31/10/2007. 
-- Carry exploratory analysis to understand the profile of churners using their demographic, transactional and attitudinal data. You can employ a decision tree to generate a rule set that can help you describe these customers or plot a distribution of the demographic variables vs the Churn variable (target)
-- As part of my feature engineering, I use RFM analysis to create recency, frequency and monetary(lifetime value) attributes for each customer. Using the derived RFM variables or RFM Scores, I created a clustering model (unsupervised technique) using K means  clustering algorithms to generate customer segments (clusters – use elbow method to select the best number of clusters). The cluster variable is used as part of my modelling and scoring variables.Churn variable is my target variable for my modelling task
-- I made sure I have a single customer view i.e the final dataset must have a single customer data per row no duplicates 
-- Follow the modelling phases including, statistical testing(Chi-square tests, correlations etc) to test for multi collinearity and over fitting, investigate the distributions, Identify outliers, extreme values or spurious values, imputed missing values where applicable, Carry out feature selection, partition the data into training, testing or validation or use cross validation technique, develop various models and selected the champion model
-- I Deployed or scored my model on an unseen dataset/hold out sample, this dataset was not included in the model development phase.
-- Finally, I revalidate my model before rolling out the main marketing campaign 
+## Customer-Churn-Prediction
+## by Oluseye Oyeniran
+---
+![](Customer_churn_image.jpg)
+
+***
+
+## Introduction
+_ _ _
+
+In this comprehensive project, we adopt an all-inclusive approach to predict customer churn by identifying specific criteria that indicate the likelihood of customers discontinuing their services.
+
+---
+
+Customer churn, also referred to as customer attrition or customer defection, is a term used to describe the situation when customers terminate their association with a business or cease utilizing its products or services. It reflects the rate at which customers disengage or end their involvement with a company within a specific timeframe. The primary objective of this project was to predict potential churn customers using historical data provided by our client. It involved a classification problem that utilized a supervised machine learning approach. To begin the analysis, I formulated queries to join tables and extract the necessary data from the database. Through data exploration and transformation, and employing statistical techniques such as Variance Inflation Factor, Recursive Feature Elimination, and assessment of multicollinearity, I reduced the initial set of 158 derived features to the most crucial eight features. These selected features were utilized as the final set for prediction. The predictive model successfully identified over 4,000 potential churners, which has the potential to generate an additional annual revenue of over $2,000,000 for the business.
+
+## Problem Statement
+
+The main challenge addressed in this Python-based project is to accurately forecast potential customer churn utilizing historical data, as supplied by our client.
+
+## Data Sourcing and Integration
+
+The project's data is sourced from the Client Database, encompassing transactional, behavioral(acquired through RFM analysis), attitudinal, and demographic data. To extract the necessary information for analysis, tailored SQL queries were formulated. These queries efficiently gathered the diverse data components from the database.
+Integration of the data was achieved by seamlessly linking the database with a Python Jupyter Notebook. This integration was enabled through the utilization of the Pandas library for data manipulation and the pyodbc library for connecting to the database. This streamlined process facilitated efficient data access and transformation, laying the foundation for subsequent analysis and insights.
+
+Attiudinal Data       |  Demographic Data
+:---------------:     |:----------------:
+ ![](attitudinal.png) | ![](demographic_query.png)  
+
+
+Transactional Data       |  Behavioral Data
+:---------------:     |:----------------:
+ ![](attitudinal.png) | ![](beavioral.png) 
