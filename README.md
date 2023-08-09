@@ -104,6 +104,7 @@ Education             |  Age distribution
  ![](commute.png) | ![](income.png)  
 
 
+
 Occupation            |  Ownership
 :---------------:     |:----------------:
  ![](occupation.png) | ![](ownership.png)  
@@ -116,7 +117,7 @@ We employed a voting-based approach to select impactful features for prediction.
 
 ---
 
-Occupation            |  Ownership
+            |  Ownership
 :---------------:     |:----------------:
  ![](Feature_Voting.png) | ![](Feature_Voting2.png)  
 
