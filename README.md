@@ -117,10 +117,11 @@ We employed a voting-based approach to select impactful features for prediction.
 
 ---
 
-            |  Ownership
+                       
+                    
+Occupation            |  Ownership
 :---------------:     |:----------------:
- ![](Feature_Voting.png) | ![](Feature_Voting2.png)  
-
+ ![](occupation.png) | ![](ownership.png) 
 
 
 
