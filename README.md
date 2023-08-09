@@ -119,12 +119,49 @@ We employed a voting-based approach to select impactful features for prediction.
 
 ---
 
-                       
-                    
+                                      
    Feature selection  |  Final Feature
 :---------------:     |:----------------:
  ![](Feature_Voting.png) | ![](Feature_Voting2.png) 
 
 
+## Model Selection
+----
+We conducted a parallel model run on our final features, evaluating 10 classification models including Random Forest, Extra Tree, Gradient Boosting, SVM, KNN, Logistic Regression, LDA, Naive Bayes, and Neural Network. Gradient Boosting emerged as the winning model due to its highest f-beta score on the test data.
 
- 
+---
+
+   model Trained  |  model Trained
+:---------------: |:----------------:
+ ![](exploratory_analysis1.png) | ![](Model_train.png) 
+
+
+
+  Modele Trained  |  Champion Model
+:---------------:     |:----------------:
+ ![](Model_train3.png) | ![](Campion_model.png) 
+
+
+---
+
+## model Evaluation
+
+Model Evaluation: Assessing Performance and Validating Results
+In the context of our project, model evaluation was a critical phase to gauge the effectiveness and reliability of our churn prediction models. This phase involved a series of steps to measure the models' performance, ensuring that they can make accurate predictions on new, unseen data. Here's how we approached model evaluation:
+
+- 	Data Splitting: We partitioned our dataset into training and testing subsets 80/20. The training data was used to train the models, while the testing data allowed us to assess their performance on unseen samples.
+
+- 	Metrics Selection: We selected appropriate evaluation metrics based on the nature of the churn prediction problem. Commonly used metrics included accuracy, precision, recall, F1-score and confusion matrix
+
+- Cross-Validation: For a robust assessment, we employed techniques like k-fold cross-validation. This involved splitting the training data into multiple folds, training the model on different subsets, and evaluating it on the remaining fold. This helped ensure that our evaluation results were not biased by a specific data split.
+
+- Hyperparameter Tuning: We fine-tuned the models' hyperparameters to optimize their performance. Grid search was applied to explore different parameter combinations and find the best settings.
+
+- Model Comparison: We compared the performance of multiple models using the selected metrics. This allowed us to identify the model that best suited the churn prediction problem based on its ability to balance precision and recall or other relevant criteria.
+
+- 	Validation on Unseen Data: After selecting the best model based on cross-validation results, we validated its performance on the designated testing subset that the model had not seen during training. This step aimed to provide a realistic estimation of its performance in a real-world scenario.
+
+- Business Impact Assessment: In addition to traditional metrics, we assessed the commercial impact of the model's predictions. This involved estimating potential revenue preservation, cost savings, and other business benefits based on model performance.
+
+
+
