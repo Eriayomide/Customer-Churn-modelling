@@ -34,21 +34,32 @@ Transactional Data       |  Behavioral Data
 
 ---
 
-## Skill Demostrated
-For a detailed account of how these skills were effectively employed to arrive at the solution to the problem, please refer to the project documentation or report ![here]()
+## Skill Demostrated 🤓
+For a detailed account of how these skills were effectively employed to arrive at the solution to the problem, please refer to the project documentation or report ![here](https://github.com/Eriayomide/Customer-Churn-modelling/blob/main/OLuseye%20Cusomer_Churn_Prediction_Pairview2.ipynb)
 
 - Data Preprocessing: Cleaning, transforming, and preparing raw data for analysis, including handling missing values, outlier detection, and feature scaling.
+
 - Feature Engineering: Creating relevant and informative features that capture customer behavior, demographics, and interactions.
 Exploratory Data Analysis (EDA): Analyzing data distributions, visualizing patterns, and identifying insights that guide feature selection and model creation.
+
 - Machine Learning Algorithms: Implementing various classification algorithms such as Random Forest, Gradient Boosting, SVM, KNN, Logistic Regression, Naive Bayes, and Neural Networks to predict churn.
+
 - Model Selection and Evaluation: Comparing multiple models, tuning hyperparameters, and evaluating their performance using metrics like accuracy, precision, recall, F1-score
+
 - Feature Importance Analysis: Determining the significance of features in predicting churn using techniques like recursive feature elimination, feature importance scores from tree-based models, and VIF analysis.
+
 - Customer Profiling and Segmentation: Utilizing clustering techniques ( K-means) to group customers based on behavior, enabling targeted strategies for retention.
+  
 - Data Integrity and Validation: Ensuring data quality, consistency, and accuracy through single customer view creation, duplication handling, and validation against real-world scenarios.
+
 - Model Deployment: Scoring models on unseen data, validating real-world performance, and preparing for integration into production systems.
+
 - Commercial Impact Assessment: Evaluating the business implications of churn prediction, including revenue preservation, cost savings, enhanced customer loyalty, and data-driven decision-making.
+
 - Communication Skills: Presenting findings, insights, and recommendations to stakeholders in a clear and concise manner, bridging the gap between technical and non-technical audiences.
+
 - Problem Solving and Critical Thinking: Identifying challenges, choosing appropriate techniques, and iterating on solutions to improve model performance and address real-world business concerns.
+
 - Project Management: Planning, organizing, and executing a comprehensive churn prediction project, including data collection, analysis, modeling, and deployment phases.
 
 ---
