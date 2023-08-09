@@ -171,10 +171,10 @@ In the context of our project, model evaluation was a critical phase to gauge th
 ---
 ![image](https://github.com/Eriayomide/Customer-Churn-modelling/assets/46994498/bbf122b0-ed20-4b5d-a95c-e301f4f0b542)
 
----
+
 A total of 6,464 customers were assessed and scored. Among them, 572 customers are predicted to be inclined towards churn, while a significant majority of 5,837 customers are expected to remain loyal. On average, each customer generates an annual revenue of £1,975. Anticipating the potential success of our churning prevention strategy, the estimated commercial value amounts to $1,129,897.00.
 
-
+---
 
 ## Recommendations to Prevent Churn: 😄
 
