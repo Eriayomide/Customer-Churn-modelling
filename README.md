@@ -14,12 +14,15 @@ In this comprehensive project, we adopt an all-inclusive approach to predict cus
 
 Customer churn, also referred to as customer attrition or customer defection, is a term used to describe the situation when customers terminate their association with a business or cease utilizing its products or services. It reflects the rate at which customers disengage or end their involvement with a company within a specific timeframe. The primary objective of this project was to predict potential churn customers using historical data provided by our client. It involved a classification problem that utilized a supervised machine learning approach. To begin the analysis, I formulated queries to join tables and extract the necessary data from the database. Through data exploration and transformation, and employing statistical techniques such as Variance Inflation Factor, Recursive Feature Elimination, and assessment of multicollinearity, I reduced the initial set of 158 derived features to the most crucial eight features. These selected features were utilized as the final set for prediction. The predictive model successfully identified over 4,000 potential churners, which has the potential to generate an additional annual revenue of over $2,000,000 for the business.
 
+---
 ## Problem Statement
+---
 
 The main challenge addressed in this Python-based project is to accurately forecast potential customer churn utilizing historical data, as supplied by our client.
 
+---
 ## Data Sourcing and Integration
-
+---
 The project's data is sourced from the Client Database, encompassing transactional, behavioral(acquired through RFM analysis), attitudinal, and demographic data. To extract the necessary information for analysis, tailored SQL queries were formulated. These queries efficiently gathered the diverse data components from the database.
 Integration of the data was achieved by seamlessly linking the database with a Python Jupyter Notebook. This integration was enabled through the utilization of the Pandas library for data manipulation and the pyodbc library for connecting to the database. This streamlined process facilitated efficient data access and transformation, laying the foundation for subsequent analysis and insights.
 
@@ -35,12 +38,14 @@ Transactional Data       |  Behavioral Data
 ---
 
 ## Skill Demostrated 🤓
+---
 For a detailed account of how these skills were effectively employed to arrive at the solution to the problem, please refer to the project documentation or report ![here](https://github.com/Eriayomide/Customer-Churn-modelling/blob/main/OLuseye%20Cusomer_Churn_Prediction_Pairview2.ipynb)
 
 - Data Preprocessing: Cleaning, transforming, and preparing raw data for analysis, including handling missing values, outlier detection, and feature scaling.
 
 - Feature Engineering: Creating relevant and informative features that capture customer behavior, demographics, and interactions.
-Exploratory Data Analysis (EDA): Analyzing data distributions, visualizing patterns, and identifying insights that guide feature selection and model creation.
+
+- Exploratory Data Analysis (EDA): Analyzing data distributions, visualizing patterns, and identifying insights that guide feature selection and model creation.
 
 - Machine Learning Algorithms: Implementing various classification algorithms such as Random Forest, Gradient Boosting, SVM, KNN, Logistic Regression, Naive Bayes, and Neural Networks to predict churn.
 
@@ -66,6 +71,8 @@ Exploratory Data Analysis (EDA): Analyzing data distributions, visualizing patte
 
 ## Methodology
 
+---
+
 The approach employed to address the problem encompassed several key steps, demonstrating a comprehensive methodology for churn prediction:
 - Churn Definition: Churn was meticulously defined as the absence of any customer purchase within the last 8 months of business transactions, specifically, when the maximum or last transaction date is before October 31, 2007.
 
@@ -82,5 +89,15 @@ The approach employed to address the problem encompassed several key steps, demo
 - Revalidation and Finalization: Prior to launching the primary marketing campaign, a final revalidation of the model was conducted. This step guaranteed that the model's effectiveness and reliability were verified, setting the stage for a successful campaign rollout.
 
 ---
+
+## Exploratory Data Analysis (EDA) 
+----
+EDA involved comprehensive data exploration to uncover insights and patterns, aiding our understanding of the dataset's characteristics and relationships.
+
+Education             |  Age distribution
+:---------------:     |:----------------:
+ ![](exploratory_analysis3.png) | ![](exploratory_analysis2.png)  
+
+
 
  
