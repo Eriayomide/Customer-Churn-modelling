@@ -175,7 +175,10 @@ In the context of our project, model evaluation was a critical phase to gauge th
 A total of 6,464 customers were assessed and scored. Among them, 572 customers are predicted to be inclined towards churn, while a significant majority of 5,837 customers are expected to remain loyal. On average, each customer generates an annual revenue of £1,975. Anticipating the potential success of our churning prevention strategy, the estimated commercial value amounts to $1,129,897.00.
 
 
+
 ## Recommendations to Prevent Churn: 😄
+
+---
 
 - 	Proactive Identification and Targeted Interventions: Implement a weekly assessment to identify customers who haven't made purchases in the last 5 months. These customers should be categorized as potential churners. Upon identifying such customers, initiate immediate targeted retention efforts.
 
@@ -184,8 +187,10 @@ A total of 6,464 customers were assessed and scored. Among them, 572 customers a
 -  everage Recommendation Model: Utilize our recommendation model to suggest relevant products to potential churners. By tailoring promotions to align with their preferences, we can increase the likelihood of re-engagement and purchases.
 - 	Solicit Feedback and Input: Actively engage with potential churners by seeking their feedback and recommendations on product offerings and specifications. This engagement not only demonstrates a genuine interest in their preferences but also encourages them to become active participants in our product improvement process.
 
+---
 
 ### By implementing these recommendations, we can foster the following positive outcomes:
+---
 
 - Retention: The personalized offers and promotions will entice potential churners to make purchases, reducing the likelihood of churn and preserving valuable revenue streams.
 
